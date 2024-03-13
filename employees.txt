@@ -1,0 +1,10 @@
+0	Ryder	Walls
+1	Connor	Harper
+2	Rogan	Hampton
+3	Marshall	Alvarez
+4	Caldwell	Campbell
+5	Alec	Bonner
+6	Kirsten	Lucas
+7	Laith	Cervantes
+8	Duncan	Malone
+9	Aurelia	Campos
