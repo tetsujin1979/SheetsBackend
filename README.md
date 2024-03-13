@@ -1,22 +1,22 @@
-## SheetsBackend
+# SheetsBackend
 An Angular frontend with Google Sheets backend
 
-# Install
+## Install
 Run npm install from the repository directory to install dependencies
 
-# Create Google sheet
+## Create Google sheet
 Create a new blank spreadsheet on Google Drive
 Enter a title for the spreadsheet
 Copy the values from employees.txt into the new spreadsheet and save
 
-# Create web extention
+## Create web extention
 Click Extensions -> Apps Script
 Copy the contens of scripts/code.gs into the editor
 Replace the <spreadsheet id> token on line two with the id of the spreadsheet. 
 To get this, examine the URL of the spreadsheet, it should be in the format of `https://docs.google.com/spreadsheets/d/<spreadsheet id>/edit`
 e.g. in the url `https://docs.google.com/spreadsheets/d/123x4ABcDEfGhiJk5L6MnO78QRS9tu0w_XyOZ1ABcd2E/edit` the id is **123x4ABcDEfGhiJk5L6MnO78QRS9tu0w_XyOZ1ABcd2E**
 
-# Deploy as web app
+## Deploy as web app
 Click Deploy -> New Deployment
 Click the gear icon next to Select type, and select Web app
 Enter a description
@@ -31,6 +31,6 @@ Click "Allow" on the sign in with Google screen
 If the "Manage deployments" dialog isn't shown, click Deploy -> Manage deployments to display it
 Click "Copy" under the URL value and paste it on line eight of the src/app/employees.service.ts file, replacing the <web app url> token
 
-# Run application
+## Run application
 Enter ng serve from the command line in the repository directory
 When the server starts, open http://localhost:4200/ in a browser and confirm the same values from the spreadsheet are displayed
